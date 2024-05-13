@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.multiselect {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  margin-top: 150px;
+  margin-left: 550px;
+}
+
+.multiselect-input {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.multiselect-input span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.multiselect-input i {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.multiselect-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1;
+  list-style-type: none;
+  width: 180px;
+}
+li:hover{
+  background-color: rgb(235, 235, 235);
+}
+.multiselect-list li {
+  padding: 10px;
+}
+
+.multiselect-list input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.multiselect-list span {
+  margin-left: 10px;
+}
+.toggle-icon {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
